@@ -6,7 +6,7 @@ public class Esercizio {
 
         cos.start();
         ct.start();
-        System.out.println("Ciao sono il" + Thread.currentThread().getName());
+        System.out.println("Ciao sono il"+" " + Thread.currentThread().getName());
 
         int x = 10;
         System.out.println("Ho la variabile x=" + x);
