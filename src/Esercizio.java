@@ -5,6 +5,7 @@ public class Esercizio {
 
         cos.start();
         ct.start();
+        //il nome viene settato automaticamente come main
         System.out.println("Ciao sono il" + " " + Thread.currentThread().getName());
 
         int x = 10;
